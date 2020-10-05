@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.infected {
+  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.infected_rate{
+  border-bottom: 10px solid rgba(9, 153, 236, 0.37);
+}
+
+.recovered{
+  border-bottom: 10px solid rgba(9, 131, 38, 0.425);
+}
+
+.recover_rate{
+  border-bottom: 10px solid rgba(120, 240, 9, 0.5);
+}
+
+.deaths{
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+.deaths_rate{
+  border-bottom: 10px solid rgba(248, 3, 24, 0.37);
+}
+
+.current{
+  border-bottom: 10px solid rgba(161, 9, 231, 0.5);
+}
+
+.current_rate{
+  border-bottom: 10px solid rgba(217, 121, 236, 0.37);
+}
+
